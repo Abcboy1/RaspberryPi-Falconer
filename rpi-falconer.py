@@ -2,7 +2,7 @@
 
 # Author:   Samy Younsi (RuptureFarm 1029) <samyyounsi@hotmail.fr>
 # License:  MIT License (http://www.opensource.org/licenses/mit-license.php)
-# Docs:     https://github.com/ShinoNuma/Shodan-Quest
+# Docs:     https://github.com/ShinoNuma/RaspberryPi-Falconer
 # Website:  http://samy.ga
 # Linkedin: https://www.linkedin.com/in/samy-younsi/
 # Note:     FOR EDUCATIONAL PURPOSE ONLY.
