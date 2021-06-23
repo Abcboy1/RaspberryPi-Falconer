@@ -11,7 +11,6 @@ from __future__ import print_function, unicode_literals
 from PyInquirer import Separator, Token, prompt, style_from_dict
 from termcolor import cprint
 from pssh.clients import ParallelSSHClient
-import pssh
 import shodan
 import random
 import time
@@ -19,7 +18,7 @@ import csv
 import os
 
 def banner():
-  shodanQuest = """
+  raspberryPiFalconer = """
     ____                   __                         ____  _    
    / __ \____ __________  / /_  ___  ____________  __/ __ \(_)   
   / /_/ / __ `/ ___/ __ \/ __ \/ _ \/ ___/ ___/ / / / /_/ / /    
@@ -37,7 +36,7 @@ Author: Naqwada, RuptureFarms 1029               ~ .~ (   ) ~. ~
                                                        '~'  
   """
   txtColors = ['red', 'yellow', 'green', 'blue', 'cyan']
-  return cprint(shodanQuest, random.choice(txtColors), attrs=['bold'])
+  return cprint(raspberryPiFalconer, random.choice(txtColors), attrs=['bold'])
 
 def getSavedAPIKey():
   filename = 'shodan_key.txt'
