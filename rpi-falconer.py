@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
-# Author:   Samy Younsi (RuptureFarm 1029) <samyyounsi@hotmail.fr>
+# Author:   Naqwada (RuptureFarm 1029) <naqwada@protonmail.com>
 # License:  MIT License (http://www.opensource.org/licenses/mit-license.php)
-# Docs:     https://github.com/ShinoNuma/RaspberryPi-Falconer
-# Website:  http://samy.ga
+# Docs:     https://github.com/Naqwada/RaspberryPi-Falconer
+# Website:  http://samy.link/
 # Linkedin: https://www.linkedin.com/in/samy-younsi/
 # Note:     FOR EDUCATIONAL PURPOSE ONLY.
 
