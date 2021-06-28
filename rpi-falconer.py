@@ -123,7 +123,7 @@ def saveResultsAs(fileFormat, results):
   fullPath = os.path.join(savePath, filename) 
   counter = 1
   if fileFormat == 'csv':
-    csvColumns = ['#', 'IP', 'Port', 'Organization', 'Location', 'Layer', 'Domains', 'Hostnames', 'Service Information']
+    csvColumns = ['#', 'IP', 'Port', 'Organization', 'Location', 'Layer', 'Domains', 'Hostnames']
     try:
       with open(fullPath, 'w+') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=csvColumns)
@@ -221,7 +221,7 @@ initQuestions = [
         'when': lambda answers: answers.get('usePreviousKey') == False or len(getSavedAPIKey()) < 30,
     },
     {
-        'type': 'input',
+        'type': 'password',
         'name': 'useNewKey',
         'message': 'Enter your Shodan API key:',
         'qmark': '[🔑]',
